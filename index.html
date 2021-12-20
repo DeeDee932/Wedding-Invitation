@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wedding IV</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <link rel="icon" type="image/jpg" sizes="225x225" href="./images/avatar.jpg">
+</head>
+<body>
+    <!-- Header / Home -->
+    <header class="dee-display-container dee-wide bgimg dee-grayscale-min" id="home">
+        <div class="dee-display-middle dee-text-white dee-center">
+            <h1 class="dee-jumbo">Taylor & Joe</h1>
+            <h2>are getting married</h2>
+            <h2>on</h2>
+            <h2><b>13.12.2022</b></h2>
+        </div>
+    </header>
+  
+    <!-- Navbar (sticky bottom) -->
+    <div class="dee-bottom dee-hide-small">
+        <div class="dee-bar dee-white dee-center dee-padding dee-opacity-min dee-hover-opacity-off">
+            <a href="#home" style="width:25%" class="dee-bar-item dee-button">Home</a>
+            <a href="#us" style="width:25%" class="dee-bar-item dee-button">Taylor & Joe</a>
+            <a href="#wedding" style="width:25%" class="dee-bar-item dee-button">Wedding</a>
+            <a href="#rsvp" style="width:25%" class="dee-bar-item dee-button dee-hover-black">RSVP</a>
+        </div>
+    </div>
+  
+    <!-- About / Taylor and Joe -->
+    <div class="dee-container dee-padding-64 dee-pale-red dee-grayscale-min" id="us">
+        <div class="dee-content">
+            <h1 class="dee-center dee-text-grey"><b>Taylor & Joe</b></h1>
+            <img class="dee-round dee-grayscale-min" src="images/TJ4.jpg" style="width:100%;margin:32px 0">
+            <p><i>Your supports and suggestions have helped us a lot to plan for a wonderful wedding ceremony. Now it is finally time for you to make us feel blessed with your presence. Your presence at our wedding means a lot to all of us. Please let us have the honor to host you on this beautiful celebration of love and loyalty! You are the most important person without whom this holy celebration is incomplete. We are looking forward to having your company.</i></p><br>
+            <p class="dee-center"><a href="#wedding" class="dee-button dee-black dee-round dee-padding-large dee-large">Wedding Details</a></p>
+        </div>
+    </div>
+  
+    <!-- Background photo -->
+    <div class="dee-display-container bgimg2">
+        <div class="dee-display-middle dee-text-white dee-center">
+            <h1 class="dee-jumbo">You Are Invited!</h1><br>
+            <h2>Of course..</h2>
+        </div>
+    </div>
+  
+    <!-- Wedding information -->
+    <div class="dee-container dee-padding-64 dee-pale-red dee-grayscale-min dee-center" id="wedding">
+        <div class="dee-content">
+            <h1 class="dee-text-grey"><b>THE WEDDING</b></h1>
+            <img class="dee-round-large dee-grayscale-min" src="images/wedding_location.jpg" style="width:100%;margin:64px 0">
+            <div class="dee-row">
+                <div class="dee-half">
+                    <h2>When</h2>
+                    <p>Wedding Ceremony - 1:00pm</p>
+                    <p>Reception & Dinner - 3:00pm</p>
+                </div>
+                <div class="dee-half">
+                    <h2>Where</h2>
+                    <p>Nashville,</p>
+                    <p>Tennessee</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!-- RSVP section -->
+    <div class="dee-container dee-padding-64 dee-pale-red dee-center dee-wide" id="rsvp">
+        <h1>HOPE YOU CAN MAKE IT!</h1>
+        <p class="dee-large">We'd love to see you there!</p>
+        <p class="dee-xlarge">
+            <button onclick="document.getElementById('id01').style.display='block'" class="dee-button dee-round dee-red dee-opacity dee-hover-opacity-off" style="padding:8px 60px">RSVP</button>
+        </p>
+    </div>
+  
+    <!-- RSVP modal -->
+    <div id="id01" class="dee-modal">
+        <div class="dee-modal-content dee-card-4 dee-animate-zoom" style="padding:32px;max-width:600px">
+            <div class="dee-container dee-white dee-center">
+                <h1 class="dee-wide">CAN YOU COME?</h1>
+                <p>We really hope you make it.</p>
+                <form>
+                    <input class="dee-input dee-border" type="text" placeholder="Name(s)" name="name">
+                </form>
+                <p><i>Sincerely, Taylor & Joe.</i></p>
+                <div class="dee-row">
+                    <div class="dee-half">
+                        <button onclick="document.getElementById('id01').style.display='none'" type="button" class="dee-button dee-block dee-green">Going</button>
+                    </div>
+                    <div class="dee-half">
+                        <button onclick="document.getElementById('id01').style.display='none'" type="button" class="dee-button dee-block dee-red">Can't come</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="dee-center dee-black dee-padding-16">
+        <p>Courtesy of <a href="https://www.deedeesworld.com" title="dee.CSS" target="_blank" class="dee-hover-text-green">DeeDee.</a></p>
+    </footer>
+    <div class="dee-hide-small" style="margin-bottom:32px"></div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
